@@ -361,11 +361,12 @@ footer{
     }
 
     footer{
-        padding: 200px 0px 100px 20px;
+        padding: 200px 0px 100px;
         min-width: 100%;
     }
    .container{
     display: block;
+    margin-left: 20px;
    }
    .circles{
        justify-content: center;
