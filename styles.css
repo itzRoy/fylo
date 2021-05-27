@@ -361,7 +361,7 @@ footer{
     }
 
     footer{
-        padding: 200px 0px 100px;
+        padding: 200px 0px 100px 20px;
         min-width: 100%;
     }
    .container{
