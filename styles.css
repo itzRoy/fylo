@@ -346,6 +346,14 @@ footer{
         padding: 0;
     }
 
+    p{
+        font-size: 10px;
+    }
+
+    nav img{
+        width: 100px;
+    }
+
     form .button{
         border-radius: 30px;
         border: none;
