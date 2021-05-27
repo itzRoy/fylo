@@ -28,7 +28,8 @@ a, li, p, button{
 }
 
 li:hover{
-    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
 }
 
 /* nav */
@@ -254,13 +255,14 @@ footer{
 
 .location{
     display: flex;
+    align-items: flex-start;
     
 }
 
 .location img{
-    max-width: 15px;
-    height: 15px;
-    transform: translateY(15px) translateX(-10px);
+    display: block;
+    margin: 10px 15px 10px 0;
+    transform: translateY(8px);
 }
 
 .circle{
@@ -274,4 +276,10 @@ footer{
 }
 .circles{
     display: flex;
+}
+
+.circle:hover{
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+    cursor: pointer;
 }
