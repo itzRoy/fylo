@@ -368,6 +368,10 @@ footer{
     display: block;
     margin-left: 20px;
    }
+
+   .main-section h1{
+       font-size: 19px;
+   }
    .circles{
        justify-content: center;
    }
