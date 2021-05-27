@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;1,700&display=swap');
+  
+html{
+    max-width: 100vw;
+}
 
 *{
     /* box-sizing: border-box; */
@@ -216,10 +220,12 @@ section:nth-of-type(5){
     transform: translateY(50%);
     margin: auto;
     background-color: hsl(219, 30%, 18%);
+    min-width: 330px;
 }
 
 form .button{
     padding: 10px;
+    max-width: 100%;
 }
 
 form input{
@@ -286,8 +292,20 @@ footer{
 }
 
 @media only screen and (max-width: 768px){
+
+    *{
+        box-sizing: border-box;
+    }
+
     nav ul li{
-        margin-left: 20px;
+        margin-left: 10px;
+    }
+
+    .nav-flex{
+        margin-left: 15px;
+        font-size: 12px;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* .main-section h1{
@@ -319,6 +337,13 @@ footer{
         display: block;
         transform: translateY(16px);
         overflow: overlay;
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+    nav ul {
+        font-size: 12px;
+        padding: 0;
     }
 
     form .button{
@@ -326,15 +351,18 @@ footer{
         border: none;
         padding: 20px 0px;
         width: 310px;
-        margin:auto;
+        margin: auto;
+        
     }
     form input{
         margin: 10px auto;
         padding: 20px 70px;
+        max-width: 100%;
     }
 
     footer{
-        padding: 200px 50px 100px;
+        padding: 200px 0px 100px;
+        min-width: 100%;
     }
    .container{
     display: block;
@@ -345,6 +373,12 @@ footer{
    .about-us{
        margin-top: 80px;
        margin-bottom: 50px;
+   }
+   body, section{
+    width: 100vw;
+   }
+   .nav-flex{
+       margin-right: 0;
    }
 }
 
