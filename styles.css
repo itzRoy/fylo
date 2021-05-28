@@ -164,7 +164,7 @@ section:nth-of-type(4){
     width: 90vw;
     margin: 100px auto 0 auto;
     display: flex;
-    background-image: url(/images/bg-quotes.png);
+    background-image: url(images/bg-quotes.png);
     background-repeat: no-repeat;
     background-position-x: 2px;
     background-position-y: 20px;
